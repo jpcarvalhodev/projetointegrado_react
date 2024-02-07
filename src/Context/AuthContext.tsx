@@ -31,7 +31,7 @@ export function AuthContextProvider({ children }: AuthContextProviderProps) {
             password
         }
 
-        const response = await fetch('http://localhost:3333/sessions', {
+        const response = await fetch('http://localhost:8000/api/Alunos', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

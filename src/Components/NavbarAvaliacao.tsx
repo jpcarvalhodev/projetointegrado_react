@@ -17,7 +17,7 @@ const StyledLink = styled(Link)`
     }
 `;
 
-const Navbar = () => {
+const NavbarAvaliacao = () => {
     
     return (
             <StyledNav>
@@ -27,10 +27,10 @@ const Navbar = () => {
                             <StyledLink to="/">Home</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/login">Login</StyledLink>
+                            <StyledLink to="/CreateAvaliacao">Criar Avaliação</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/logout">Logout</StyledLink>
+                            <StyledLink to="/ListAvaliacoes">Listar Avaliações</StyledLink>
                         </li>
                     </ul>
                 </div>
@@ -38,4 +38,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavbarAvaliacao;

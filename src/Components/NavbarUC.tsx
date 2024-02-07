@@ -17,7 +17,7 @@ const StyledLink = styled(Link)`
     }
 `;
 
-const Navbar = () => {
+const NavbarUC = () => {
     
     return (
             <StyledNav>
@@ -27,10 +27,16 @@ const Navbar = () => {
                             <StyledLink to="/">Home</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/login">Login</StyledLink>
+                            <StyledLink to="/CreateUC">Criar Unidade Curricular</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/logout">Logout</StyledLink>
+                            <StyledLink to="/RemoveUC">Apagar Unidade Curricular</StyledLink>
+                        </li>
+                        <li>
+                            <StyledLink to="/UpdateUC">Atualizar Unidade Curricular</StyledLink>
+                        </li>
+                        <li>
+                            <StyledLink to="/ListUC">Listar Unidades Curriculares</StyledLink>
                         </li>
                     </ul>
                 </div>
@@ -38,4 +44,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavbarUC;
