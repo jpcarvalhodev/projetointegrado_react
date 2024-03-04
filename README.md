@@ -1,20 +1,20 @@
-Educational Institution Management System (React with TypeScript)
+# Educational Institution Management System
 
 Welcome to the Educational Institution Management System repository! This project is built using React with TypeScript and aims to provide a platform for managing students and reviews for an educational institution.
 
-Features
+## Features
 
 	•	Teachers can view and submit reviews for the educational institution.
 	•	Institution employees can manage students, courses, subjects, teachers and reviews.
 	•	Administrators can manage students, courses, subjects, teachers and reviews with CRUD operations.
 
-Prerequisites
+## Prerequisites
 
 	•	Node.js (v14.x or higher)
 	•	npm or yarn
 	•	Git
 
-Installation
+## Installation
 
 	1.	Clone this repository:
 
@@ -41,7 +41,7 @@ or with yarn:
 
 yarn start
 
-Usage
+## Usage
 
 Once the development server is running, you can access the application at http://localhost:3000 in your web browser. From there, you can:
 
@@ -49,8 +49,9 @@ Once the development server is running, you can access the application at http:/
 	•	Submit new reviews, providing ratings and comments.
 	•	Administrators can log in and manage reviews, including approving, editing, listing and deleting them.
 
-Folder Structure
+## Folder Structure
 
+```
 src/
 |-- components/
 |   |-- Navbar.tsx
@@ -87,7 +88,8 @@ src/
 |-- index.css
 |-- routes.tsx
 |-- ...
+```
 
-Contribution
+## Contribution
 
 Contributions are encouraged and welcome! If you have any ideas for improvements, feel free to open an issue!
