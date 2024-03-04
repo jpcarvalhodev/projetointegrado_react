@@ -1,12 +1,12 @@
-Educational Institution Review Management System (React with TypeScript)
+Educational Institution Management System (React with TypeScript)
 
-Welcome to the Educational Institution Review Management System repository! This project is built using React with TypeScript and aims to provide a platform for managing and displaying reviews for an educational institution.
+Welcome to the Educational Institution Management System repository! This project is built using React with TypeScript and aims to provide a platform for managing students and reviews for an educational institution.
 
 Features
 
-	•	Users can view reviews for the educational institution.
-	•	Users can submit new reviews, including ratings and comments.
-	•	Administrators can manage reviews, including approving, editing, and deleting them.
+	•	Teachers can view and submit reviews for the educational institution.
+	•	Institution employees can manage students, courses, subjects, teachers and reviews.
+	•	Administrators can manage students, courses, subjects, teachers and reviews with CRUD operations.
 
 Prerequisites
 
@@ -18,11 +18,11 @@ Installation
 
 	1.	Clone this repository:
 
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/jpcarvalho23/projetointegrado-react.git
 
 	2.	Navigate into the project directory:
 
-cd repository-name
+cd projetointegrado-react
 
 	3.	Install dependencies using npm:
 
@@ -47,7 +47,7 @@ Once the development server is running, you can access the application at http:/
 
 	•	View existing reviews for the educational institution.
 	•	Submit new reviews, providing ratings and comments.
-	•	Administrators can log in and manage reviews, including approving, editing, and deleting them.
+	•	Administrators can log in and manage reviews, including approving, editing, listing and deleting them.
 
 Folder Structure
 
@@ -62,13 +62,30 @@ src/
 |-- context/
     |-- AuthContext.tsx
 |-- pages/
-|   |-- HomePage.tsx
-|   |-- LoginPage.tsx
-|   |-- AdminPage.tsx
+|   |-- CreateAluno.tsx
+|   |-- CreateAvaliacao.tsx
+|   |-- CreateCurso.tsx
+|   |-- CreateProfessor.tsx
+|   |-- CreateUC.tsx
+|   |-- ListAlunos.tsx
+|   |-- ListAvaliacoes.tsx
+|   |-- ListCursos.tsx
+|   |-- ListProfessor.tsx
+|   |-- ListUC.tsx
+|   |-- Login.tsx
+|   |-- Logout.tsx
+|   |-- RemoveAluno.tsx
+|   |-- RemoveCurso.tsx
+|   |-- RemoveProfessor.tsx
+|   |-- RemoveUC.tsx
+|   |-- UpdateAluno.tsx
+|   |-- UpdateCurso.tsx
+|   |-- UpdateUC.tsx
 |-- 
 |-- App.tsx
 |-- index.tsx
-|-- styles.css
+|-- index.css
+|-- routes.tsx
 |-- ...
 
 Contribution
