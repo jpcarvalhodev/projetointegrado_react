@@ -4,15 +4,19 @@ Welcome to the Educational Institution Management System repository! This projec
 
 ## Features
 
-	•	Teachers can view and submit reviews for the educational institution.
-	•	Institution employees can manage students, courses, subjects, teachers and reviews.
-	•	Administrators can manage students, courses, subjects, teachers and reviews with CRUD operations.
+• Teachers can view and submit reviews for the educational institution.
+
+• Institution employees can manage students, courses, subjects, teachers and reviews.
+
+• Administrators can manage students, courses, subjects, teachers and reviews with CRUD operations.
 
 ## Prerequisites
 
-	•	Node.js (v14.x or higher)
-	•	npm or yarn
-	•	Git
+• Node.js (v14.x or higher)
+
+• npm or yarn
+
+• Git
 
 ## Installation
 
