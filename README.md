@@ -16,38 +16,52 @@ Welcome to the Educational Institution Management System repository! This projec
 
 ## Installation
 
-	1.	Clone this repository:
-
+1. Clone this repository:
+ 
+```
 git clone https://github.com/jpcarvalho23/projetointegrado-react.git
+```
 
-	2.	Navigate into the project directory:
+2. Navigate into the project directory:
 
+```
 cd projetointegrado-react
+```
 
-	3.	Install dependencies using npm:
+3. Install dependencies using npm:
 
+```
 npm install
+```
 
 or using yarn:
 
+```
 yarn
+```
 
-	4.	Create a .env file in the root directory and add necessary environment variables.
-	5.	Start the development server:
+4. Create a .env file in the root directory and add necessary environment variables.
+5. Start the development server:
 
+```
 npm start
+```
 
 or with yarn:
 
+```
 yarn start
+```
 
 ## Usage
 
 Once the development server is running, you can access the application at http://localhost:3000 in your web browser. From there, you can:
 
-	•	View existing reviews for the educational institution.
-	•	Submit new reviews, providing ratings and comments.
-	•	Administrators can log in and manage reviews, including approving, editing, listing and deleting them.
+• View existing reviews for the educational institution.
+
+• Submit new reviews, providing ratings and comments.
+
+• Administrators can log in and manage reviews, including approving, editing, listing and deleting them.
 
 ## Folder Structure
 
