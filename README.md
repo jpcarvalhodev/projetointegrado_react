@@ -23,7 +23,7 @@ Welcome to the Educational Institution Management System repository! This projec
 1. Clone this repository:
  
 ```
-git clone https://github.com/jpcarvalho23/projetointegrado-react.git
+git clone https://github.com/jpcarvalhodev/projetointegrado-react.git
 ```
 
 2. Navigate into the project directory:
