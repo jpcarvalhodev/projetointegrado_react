@@ -23,13 +23,13 @@ Welcome to the Educational Institution Management System repository! This projec
 1. Clone this repository:
  
 ```
-git clone https://github.com/jpcarvalhodev/projetointegrado-react.git
+git clone https://github.com/jpcarvalhodev/projetointegrado_react.git
 ```
 
 2. Navigate into the project directory:
 
 ```
-cd projetointegrado-react
+cd projetointegrado_react
 ```
 
 3. Install dependencies using npm:
